@@ -1,0 +1,16 @@
+[package]
+name = "timeywimey"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Quick and dirty RTC differential measurement tool"
+authors = ["Solra Bizna <solra@bizna.name>"]
+repository = "https://github.com/SolraBizna/timeywimey"
+
+[dependencies]
+clap = {version = "4.4.2", features=["derive", "wrap_help"]}
+libc = "0.2.147"
+rand = "0.8.5"
+serde = {version = "1.0.188", features=["derive"]}
+serde_json = "1.0.105"
+
